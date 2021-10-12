@@ -1,0 +1,28 @@
+.modal-content {
+  height: 200px;
+  width: 300px;
+  margin-left: 270px;
+  background-color: cornflowerblue;
+
+  border-radius: 30px;
+}
+#myModal {
+  display: none;
+}
+.game_over {
+  padding-left: 60px;
+  color: yellow;
+}
+#play_again {
+  margin-left: 90px;
+  border: solid 2px;
+  border-radius: 5px;
+  background-color: rgb(11, 164, 113);
+
+  width: 100px;
+  height: 35px;
+}
+#score_game {
+  color: yellow;
+  margin-left: 110px;
+}
