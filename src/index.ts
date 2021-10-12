@@ -27,6 +27,7 @@ let bird_ob = {
 //
 //xét giá trị a cho vật dừng hoặc di chuyển a==1 di chuyển, a== 0 dừng:
 let a = 1;
+let b = 0;
 
 var pipes = new Array();
 pipes[0] = canvas.width;
@@ -47,6 +48,7 @@ function barrier(): void {
     if (pipes[i] == 450) {
       //location.push(canvas.width);
       // location.push(Math.floor(Math.random() * above.height) - above.height);
+
       pipes.push(canvas.width);
     }
 
@@ -124,5 +126,4 @@ var modal = document.getElementById("myModal");
 // xử lý nút play_again
 document.getElementById("play_again").onclick = function () {
   modal.style.display = "none";
-  alert("chơi");
 };
