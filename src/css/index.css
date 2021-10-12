@@ -1,3 +1,7 @@
+body {
+  background-image: url(../images/nenchinh.png);
+}
+
 .modal-content {
   height: 200px;
   width: 300px;

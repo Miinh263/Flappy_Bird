@@ -125,5 +125,5 @@ document.addEventListener("keydown", function () {
 var modal = document.getElementById("myModal");
 // xử lý nút play_again
 document.getElementById("play_again").onclick = function () {
-  modal.style.display = "none";
+  location.reload();
 };
